@@ -1,18 +1,21 @@
-torch==1.11.0
-torchvision==0.12.0
-pytorch-lightning==0.7.5
-test-tube
-kornia==0.2.0
-opencv-python==4.3.0.38
-matplotlib
-jupyter
+# PyTorch and related libraries
+torch>=1.11.0,<2.0.0  # 允许小版本和补丁版本更新，但保持主版本不变
+torchvision>=0.12.0,<1.0.0
+pytorch-lightning>=1.6.0,<2.0.0
 
-# for mesh
-PyMCubes
-pycollada
-trimesh
-pyglet
+# Utility libraries
+test-tube>=0.7.5,<0.8.0
+kornia>=0.6.0,<1.0.0
+opencv-python>=4.3.0.38,<5.0.0
+matplotlib>=3.3.4,<4.0.0
+jupyter>=1.0.0,<2.0.0
 
-# for point cloud
-plyfile
-open3d
+# For mesh processing
+PyMCubes>=0.0.2,<0.1.0
+pycollada>=0.7.1,<0.8.0
+trimesh>=3.9.0,<4.0.0
+pyglet>=1.5.0,<2.0.0
+
+# For point cloud processing
+plyfile>=0.7,<0.8
+open3d>=0.13.0,<1.0.0
